@@ -1,0 +1,39 @@
+# 🌦️ WeatherProject: My First Python Data App
+
+Welcome! This is my very first educational project written in Python. I built it to learn how to work with real-world data, visualize results, and implement basic machine learning models.
+
+## 🚀 Project Overview
+The application fetches weather forecast data for selected cities (Bratislava, Prague, or Vienna) via an open API, analyzes temperature trends, and attempts to predict future values using a regression model.
+
+The project includes two interfaces:
+1. Console Interface (`main.py`): For quick analysis and data visualization.
+2. Web Service (`app.py`): A Flask-based API that serves weather and prediction data in JSON format.
+
+## 🛠️ Tech Stack & Skills
+In this project, I applied several key data science libraries for the first time:
+* Pandas: Used for structuring data into DataFrames and calculating statistics (mean, max, min).
+* NumPy: Used for mathematical operations and data reshaping.
+* Matplotlib: Used to generate charts showing temperature changes over time.
+* Scikit-learn: I implemented my first AI model — Linear Regression — to predict upcoming weather trends.
+* Flask: To wrap my logic into a functional web server.
+* Requests: To handle external API calls and process JSON responses.
+
+## 📈 What I Learned
+* How to interact with external APIs and handle JSON data.
+* Data cleaning and basic statistical analysis.
+* Building visualizations that help understand data patterns.
+* Understanding how a simple ML model "learns" from history to make predictions.
+
+## ⚙️ How to Run
+1. Clone the repository.
+2. Install the required dependencies:
+   pip install flask pandas matplotlib scikit-learn numpy requests
+3. Run num.py for the console version or app.py to start the web server
+
+## ⏳ Future Improvements
+This is just the beginning! My goals for the next versions are:
+• [ ] Add support for more cities worldwide.
+• [ ] Experiment with more complex models (like Random Forest or LSTM).
+• [ ] Create a proper Frontend using HTML/CSS/JS.
+• [ ] Implement better error handling for API outages.
+This is my first step into the world of Python and Data Science. I am open to any feedback or suggestions!
